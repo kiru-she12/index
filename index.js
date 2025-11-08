@@ -56,3 +56,22 @@ function mutate(obj){
     console.log(obj.age)
 }
 mutate(secondProfile)
+
+//variable shadowing
+const mage =22
+if(true){
+    const mage = 23
+
+}
+//Query selector
+const heading = document.querySelector('#heloo')
+console.log(heading)
+heading.innerText ='Hello raj'
+
+const allList = document.querySelectorAll('ul li')
+
+for( let i=0; i< allList.length; i++){
+    const listItem = allList[i]
+    listItem.innerText = 'yooooo'
+}
+console.log(allList)

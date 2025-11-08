@@ -15,16 +15,8 @@ section{
     align-items: center;
     justify-content: center;
 }
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-nav ul li{
-    list-style: none;
-    
-    padding: 10px;
-    margin: 2px;
+ul li{
+    background: yellow;
 }
 #logo{
     width: 80vw;
@@ -38,3 +30,5 @@ nav ul li{
     width: 100%;
     border-bottom: 2px solid gray;
 }
+ #heloo{
+   
